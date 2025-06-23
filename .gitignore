@@ -1,0 +1,56 @@
+# File yang dibuat oleh Visual Studio
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# File build
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# File Visual Studio
+*.VisualState.xml
+TestResult.xml
+[Bb]uild[Ll]og.*
+
+# File NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# File cache dan log
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# File konfigurasi lokal
+appsettings.Development.json
+appsettings.Production.json
+*.Development.json
+*.Production.json
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
